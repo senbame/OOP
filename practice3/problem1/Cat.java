@@ -15,6 +15,9 @@ public class Cat extends Animal{
     public double getSize(){
         return size;
     }
+    public void setSize(double size){
+        this.size = size;
+    }
     
     @Override
     public void makeSound(){
