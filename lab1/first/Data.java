@@ -8,7 +8,7 @@ public class Data {
     public Data(){
         this.count = 0;
         this.sum = 0.0;
-        this.max = 0.0;
+        this.max = Double.NEGATIVE_INFINITY;
     }
 
     public void addValue(double value){

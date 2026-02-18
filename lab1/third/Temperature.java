@@ -2,7 +2,7 @@ package lab1.third;
 
 public class Temperature {
     private double degrees;
-    private char scale; // 'C' or 'F'
+    private char scale; 
 
     public Temperature() {
         this(0.0, 'C');
