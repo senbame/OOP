@@ -1,6 +1,6 @@
 package practice3.problem1;
 
-public abstract class Animal {
+public class Animal {
     private String name;
     private double age;
     private String gender;
@@ -43,5 +43,7 @@ public abstract class Animal {
     public void goSleep(){
         System.out.println(name + " is going to sleep!");
     }
-    public abstract void makeSound();
+    public void makeSound(){
+        System.out.println("No sound");
+    }
 }
