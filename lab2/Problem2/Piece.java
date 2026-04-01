@@ -2,7 +2,7 @@ package lab2.Problem2;
 
 public abstract class Piece {
 
-    protected Position currentPosition;
+    Position currentPosition;
 
     public Piece(Position currentPosition) {
         this.currentPosition = currentPosition;

@@ -1,6 +1,6 @@
 package lab2.Problem1.PartC;
 
-import java.util.Objects;
+// import java.util.Objects;
 
 public class Transport {
     private String manufacturer;
@@ -35,17 +35,17 @@ public class Transport {
     public String toString() {
         return "Transport [manufacturer=" + manufacturer + ", speed=" + speed + ", capacity=" + capacity + "]";
     }
-    @Override
-    public boolean equals(Object obj){
-        if (this == obj) return true;
-        if (!(obj instanceof Transport)) return false;
+    // @Override
+    // public boolean equals(Object obj){
+    //     if (this == obj) return true;
+    //     if (!(obj instanceof Transport)) return false;
 
-        Transport other = (Transport) obj;
-        return this.manufacturer.equals(other.manufacturer) && this.speed == other.speed && this.capacity == other.capacity;
-    }
-    @Override
-    public int hashCode(){
-        return Objects.hash(getManufacturer(), getSpeed(), getCapacity());
-    }
+    //     Transport other = (Transport) obj;
+    //     return this.manufacturer.equals(other.manufacturer) && this.speed == other.speed && this.capacity == other.capacity;
+    // }
+    // @Override
+    // public int hashCode(){
+    //     return Objects.hash(getManufacturer(), getSpeed(), getCapacity());
+    // }
 }
 
