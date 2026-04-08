@@ -8,18 +8,15 @@ public class Absctract {
     // 4. There is a clear IS-A hierarchy and a common base makes sense
 
     public abstract class Shape {
-        protected String colour;     // shared state — impossible in interface
-
+        protected String colour;     
         public Shape(String colour) { this.colour = colour; }
 
-        // Concrete shared method
         public String getColour() { return colour; }
 
-        // Abstract — subclass MUST implement
+       
         public abstract double area();
         public abstract double perimeter();
 
-        // Template method pattern: uses abstract methods
         public void describe() {
             System.out.printf("Shape[%s] area=%.2f perimeter=%.2f%n",
                             colour, area(), perimeter());
